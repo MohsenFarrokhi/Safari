@@ -1,18 +1,124 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
 }
 
-.container {
-  background-image: url("../public/home_safari_bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.homepage {
+    background-image: url("../public/home_safari_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background-image: url("../public/contact_safari_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.tours {
+    background-image: url("../public/contact_safari_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us {
+    background-image: url("../public/rate_safari_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 200px;
+    height: 32px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 32px;
+}
+
+.link {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navlink.active {
+    font-weight: bold;
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.link-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.navlink {
+
+}
+
+span {
+    margin: 0 40px;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: white;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+p {
+    font-size: 80px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.header {
+    color: cadetblue;
+    display: contents;
+}
+
+img {
+    background: none;
 }

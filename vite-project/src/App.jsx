@@ -1,12 +1,10 @@
 import './App.css'
+import {Routers} from "./components/Routers.jsx";
 
 function App() {
   return (
-    <div className="container">
-        <div className="">
-            SAFARI
-        </div>
-
+    <div>
+        <Routers/>
     </div>
   )
 }
