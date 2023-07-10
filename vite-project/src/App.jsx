@@ -1,4 +1,5 @@
 import './App.css'
+import './App.js'
 import {Routers} from "./components/Routers.jsx";
 
 function App() {
