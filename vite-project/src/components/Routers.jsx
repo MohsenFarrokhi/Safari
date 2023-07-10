@@ -4,6 +4,7 @@ import AboutUs from "./AboutUs.jsx";
 import Tours from "./Tours.jsx";
 import Contact from "./Contact.jsx";
 import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 
 export const Routers = () => {
     return (
@@ -16,6 +17,7 @@ export const Routers = () => {
                     <Route path="/tours" element={<Tours/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </div>
     )
